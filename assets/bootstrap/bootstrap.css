@@ -608,10 +608,16 @@ textarea {
 
 .d-block {
   display: block !important;
+  object-fit: cover;
+  object-position: 100% 0;
 }
 
 .w-100 {
   width: 100% !important;
+}
+.h-100 {
+  height: auto;
+  max-height: 800px;
 }
 
 .my-4 {
