@@ -96,7 +96,6 @@ body {
 .gallery .nav {
   justify-content: center;
   cursor: pointer;
-  max-width: 1296px;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -309,8 +308,8 @@ input[type="submit"] {
     margin-top: 1em;
   }
   .picture.right::before {
-    width: 420px;
-    height: auto;
+    width: 100%;
+    height: 30%;
     position: absolute;
     bottom: 0;
     right: 0;
