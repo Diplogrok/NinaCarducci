@@ -396,7 +396,7 @@ textarea {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  max-width: 1920px;
   overflow: hidden;
 }
 .carousel-inner::after {
@@ -610,13 +610,6 @@ textarea {
   display: block !important;
   object-fit: cover;
   object-position: 100% 0;
-}
-
-.w-100 {
-  width: 100% !important;
-}
-.h-100 {
-  height: auto;
 }
 
 .my-4 {
