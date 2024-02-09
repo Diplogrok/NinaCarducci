@@ -42,8 +42,12 @@ body {
   width: 20px;
   height: auto;
 }
+#header {
+  height: 666px;
+}
 
 #about {
+  height: 758px;
   display: flex;
   background-color: #f6d2b8;
   padding-inline: 100px;
@@ -247,6 +251,9 @@ input[type="submit"] {
   .picture {
     flex: 2;
   }
+  #header {
+    height: 473px;
+  }
   #about,
   #contact .container {
     align-items: center;
@@ -264,6 +271,9 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
   #about {
     flex-direction: column;
+  }
+  #header {
+    height: 355px;
   }
   .picture {
     width: 50%;
@@ -320,6 +330,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+  #header {
+    height: 173px;
+  }
   .top-header {
     flex-direction: column;
     padding-inline: 0;
