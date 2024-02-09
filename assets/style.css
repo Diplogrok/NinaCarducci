@@ -217,6 +217,15 @@ body {
 .form-container {
   flex: 2;
 }
+.footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.footer_name {
+  display: flex;
+  justify-content: center;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -331,7 +340,10 @@ input[type="submit"] {
 
 @media all and (max-width: 650px) {
   #header {
-    height: 173px;
+    height: 196px;
+  }
+  #about {
+    height: 790px;
   }
   .top-header {
     flex-direction: column;
@@ -367,5 +379,10 @@ input[type="submit"] {
   }
   .picture {
     width: 80%;
+  }
+}
+@media all and (max-width: 400px) {
+  #header {
+    height: 173px;
   }
 }
